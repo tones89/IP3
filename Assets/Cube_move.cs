@@ -10,8 +10,8 @@ public class Cube_move : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
-		transform.Rotate(0,5*Time.deltaTime,0);
-		
+
+        transform.Rotate(0, 5 * Time.deltaTime, 0);
 	}
 }
+
